@@ -7,6 +7,6 @@ virtualenv pare-env
 
 echo "Activating virtual environment"
 
-source $PWD/pare-env/bin/activate; pip3 install libturbojpeg
+source $PWD/pare-env/bin/activate; pip install PyTurboJPEG
 
 $PWD/pare-env/bin/pip install -r requirements.txt
